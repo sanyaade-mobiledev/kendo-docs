@@ -11,9 +11,7 @@ By default, the view wraps its content in a `div` element. The element type can 
 
 ## Creating a View from HTML String
     <script>
-        var index = new kendo.View({
-            content: '<span>Hello World!</span>'
-        });
+        var index = new kendo.View('<span>Hello World!</span>');
     </script>
 
 ## Creating a View from Script Template
@@ -22,9 +20,7 @@ By default, the view wraps its content in a `div` element. The element type can 
     </script>
 
     <script>
-        var index = new kendo.View({
-            content: 'index'
-        });
+        var index = new kendo.View('index');
     </script>
 
 ## Rendering View Contents
@@ -37,9 +33,7 @@ The view instantiates its content when rendered for the first time. This means t
     <div id="app"></div>
 
     <script>
-        var index = new kendo.View({
-            content: '<span>Hello World!</span>'
-        });
+        var index = new kendo.View('<span>Hello World!</span>');
 
         index.render("#app");
     </script>
@@ -49,9 +43,7 @@ The view instantiates its content when rendered for the first time. This means t
     <div id="app"></div>
 
     <script>
-        var index = new kendo.View({
-            content: '<span>Hello World!</span>'
-        });
+        var index = new kendo.View('<span>Hello World!</span>');
 
         $("#app").append(index.render());
     </script>

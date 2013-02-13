@@ -22,10 +22,10 @@ The **View** and **Layout** classes are used for the UI rendering. UI Event hand
     </script>
 
     <script>
-        var index = new kendo.View({
-            content: "index", // the id of the script element that contains the view markup
-            model: kendo.observable({ foo: "World!" });
-        });
+        var index = new kendo.View(
+            "index", // the id of the script element that contains the view markup
+            { model: kendo.observable({ foo: "World!" }) }
+        );
 
         var router = new kendo.Router();
 
