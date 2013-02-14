@@ -23,7 +23,7 @@ The MVVM model to bind to. If a string is passed, The view will try to resolve a
        <span data-bind="text:bar"></span>
     </div>
 
-### reload
+### reload `Boolean` *(default: null)*
 
 Applicable to remote views only. If set to true, the remote view contents will be reloaded from the server (using Ajax) each time the view is navigated to.
 
