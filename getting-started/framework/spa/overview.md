@@ -9,7 +9,7 @@ Kendo Single-Page Application (sometimes abbreviated as SPA) is a set of classes
 More information about the Single-page Application pattern can be found in the [Single-page Application Wikipedia article](http://en.wikipedia.org/wiki/Single-page_application).
 
 The **Router** class is responsible for tracking the application state and navigating between the application states. The router integrates into the browser history using the fragment version of the url (`#page`), making the application states bookmarkable and linkable.
-The router instance is also used for programatic navigation to a given state.
+The router instance is also used for programmatic navigation to a given state.
 
 The **View** and **Layout** classes are used for the UI rendering. UI Event handling and data binding can be performed either through **MVVM** or **declarative data attribute initialization**.
 
