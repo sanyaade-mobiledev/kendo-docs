@@ -32,7 +32,6 @@ By default, if the URL fragment is empty (or not present), the "/" route callbac
 The router implements most of the [Ruby on Rails](http://guides.rubyonrails.org/routing.html#non-resourceful-routes) routing formats, supporting **bound parameters**, **optional segments**, and **route globbing**.
 The parsed parts of the URL are passed as parameters to the route callback.
 
-
 ### Parameter Parsing
 
     <script>
